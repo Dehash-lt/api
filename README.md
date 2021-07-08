@@ -5,13 +5,13 @@ You can use our API without any limitations.
 
 # Examples
 
-### GET request:
+### GET Request:
 ```bash
 $ curl "https://api.dehash.lt/api.php?search=e10adc3949ba59abbe56e057f20f883e"
 e10adc3949ba59abbe56e057f20f883e:123456
 ````
 
-### POST request:  
+### POST Request:  
 Note - POST request size limited to 10MB and every line should be same type.
 ```bash
 $ cat md5.txt
