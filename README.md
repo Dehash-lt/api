@@ -37,3 +37,17 @@ $ curl "https://api.dehash.lt/api.php?search=e10adc3949ba59abbe56e057f20f883e&js
     }
 }
 ```
+```bash
+$ curl -X POST --data-binary @./md5.txt "https://api.dehash.lt/api.php?json=1"
+{
+    "https:\/\/dehash.lt": {
+        "results": [
+            "25f9e794323b453885f5181f1b624d0b:123456789"
+        ]
+    },
+    "http:\/\/nitrxgen.net": {
+        "results": [
+            "e10adc3949ba59abbe56e057f20f883e:123456"
+        ]
+    }
+}
