@@ -38,6 +38,10 @@ $ curl "https://api.dehash.lt/api.php?search=e10adc3949ba59abbe56e057f20f883e&js
 }
 ```
 ```bash
+$ cat md5.txt
+e10adc3949ba59abbe56e057f20f883e
+25f9e794323b453885f5181f1b624d0b
+
 $ curl -X POST --data-binary @./md5.txt "https://api.dehash.lt/api.php?json=1"
 {
     "https:\/\/dehash.lt": {
