@@ -3,6 +3,12 @@
 You can use our API without any limitations.
 
 
+# HTTP URL Arguments
+| Argument | Default Value | Comment                                    |
+| :---     |     :---:     |                                       ---: |
+| &json=   |       0       | Enable printing full data in json          |
+| &fast=   |       0       | Enable fast lookup (No external search)    |
+
 # Examples
 
 ### GET Request:
